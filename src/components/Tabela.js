@@ -35,6 +35,7 @@ class Tabela extends Component {
     return (
       <table>
         <TableHead />
+        
         <TableBody autores={autores} removeLine={removeLine} />
       </table>
     );
